@@ -1,0 +1,104 @@
+@font-face {
+    font-family:"RobotoSlab-Regular";
+    src: url(../fonts/RobotoSlab-Regular.ttf);
+   }
+    @font-face {
+        font-family: "OpenSans-Regular";
+        src: url(../fonts/OpenSans-Regular.ttf);
+    }
+body{
+    background-image:url(../img/fon.jpg);
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    }
+h1,h2{
+    font-family:"RobotoSlab-Regular";
+}
+p,li{
+    font-family: "OpenSans-Regular";
+}
+
+.main img{
+    border: 10px dashed black;
+    border-radius: 50px;
+}
+p {
+    font-family:"RobotoSlab-Regular",serif ;
+}
+ li{
+font-size: 18px;
+   
+}
+.wrap0{
+    color: green;
+    font-weight: bold;
+}
+.wrap{
+    color: green;
+    font-weight: bold; 
+    
+}
+.wrap2{
+    color: green;
+    font-weight: bold; 
+    
+}
+.btn1{
+    background-color: red;
+    border: 1px solid #333; 
+    color: #fff;;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+    
+.btn2 {
+    background-color: red;
+    border: 1px solid #333; 
+    color: #fff;;
+    padding: 10px 40px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.main{
+    padding-top: 70px;
+}
+.item li{
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+ background-color: #333;
+ position: absolute;
+ top: 0;
+ width: 100%;
+}
+.item a{
+display: block;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 17px;
+}
+.item a:hover {
+ background: #ddd;
+ color: black;
+ opacity: 0,2s;
+}
+.item{
+    display: flex;justify-content: space-around;
+}
+  footer{
+    width: auto;
+    height: 70px;
+    background-color: #333;
+    text-align: center;
+  }
+.text_footer{
+    color: #f2f2f2;
+    padding: 20px;
+  }
